@@ -1,0 +1,55 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+   
+}
+
+body{
+    background-image: url(./matrix-green-numbers.jpg);
+}
+
+#container {
+  margin: 10rem auto;
+  border: 5px solid rgb(216, 16, 26);
+  font-size: 30px;
+  padding: 10px;
+  text-align: center;
+  height: 260px;
+  width: 600px;
+  background-color: rgba(126, 189, 225, 0.8);
+  border-radius: 2rem;
+}
+p {
+  color: rgb(223, 204, 36);
+}
+#userInput {
+  width: 170px;
+  height: 2rem;
+  border-radius: 1rem;
+  padding: 0 2rem;
+  font-size: 1.2rem;
+  font-weight: 500;
+}
+#outputText {
+  color: rgb(188, 9, 9);
+  margin-bottom: 2rem;
+}
+
+button {
+  border-radius: 1rem;
+  width: 6rem;
+  height: 2rem;
+}
+
+#enterButton{
+    background-color: green;
+    color: white;
+}
+
+#againButton{
+    background-color: orangered;
+    color: white;
+}
