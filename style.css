@@ -1,1 +1,28 @@
-
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+   
+   #container{
+      margin: 10rem auto;
+      border:5px solid rgb(216, 16, 26);
+      font-size:30px;
+      padding:10px;
+      text-align:center;
+      height:260px;
+      width:600px;
+      background-color:#487f9f;
+    }
+    p{
+      color:white;
+    }
+    #userInput{
+      width:170px;
+      height:23px;
+    
+    }
+    #outputText{
+      color:red;
+    }
+ 
